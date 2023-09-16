@@ -1,0 +1,652 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.alibaba.qlbenchjmh.MyBenchmark.testRunner3Cache",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/home/dqyuan/append/language/Java/jdk8/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_191",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.191-b12",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "qlFile" : "fibonacci.ql"
+        },
+        "primaryMetric" : {
+            "score" : 111.09030784181525,
+            "scoreError" : 5.999737098709689,
+            "scoreConfidence" : [
+                105.09057074310556,
+                117.09004494052493
+            ],
+            "scorePercentiles" : {
+                "0.0" : 108.33064676327442,
+                "50.0" : 111.65969629862937,
+                "90.0" : 111.98990832058546,
+                "95.0" : 111.98990832058546,
+                "99.0" : 111.98990832058546,
+                "99.9" : 111.98990832058546,
+                "99.99" : 111.98990832058546,
+                "99.999" : 111.98990832058546,
+                "99.9999" : 111.98990832058546,
+                "100.0" : 111.98990832058546
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    111.48194173144697,
+                    111.98990832058546,
+                    108.33064676327442,
+                    111.98934609514006,
+                    111.65969629862937
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.alibaba.qlbenchjmh.MyBenchmark.testRunner3Cache",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/home/dqyuan/append/language/Java/jdk8/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_191",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.191-b12",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "qlFile" : "integer.ql"
+        },
+        "primaryMetric" : {
+            "score" : 9039.814131172066,
+            "scoreError" : 379.79818915192624,
+            "scoreConfidence" : [
+                8660.01594202014,
+                9419.612320323993
+            ],
+            "scorePercentiles" : {
+                "0.0" : 8866.931087622861,
+                "50.0" : 9068.384078147747,
+                "90.0" : 9112.64554703683,
+                "95.0" : 9112.64554703683,
+                "99.0" : 9112.64554703683,
+                "99.9" : 9112.64554703683,
+                "99.99" : 9112.64554703683,
+                "99.999" : 9112.64554703683,
+                "99.9999" : 9112.64554703683,
+                "100.0" : 9112.64554703683
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    9088.771803661939,
+                    9068.384078147747,
+                    9112.64554703683,
+                    9062.33813939096,
+                    8866.931087622861
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.alibaba.qlbenchjmh.MyBenchmark.testRunner3Cache",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/home/dqyuan/append/language/Java/jdk8/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_191",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.191-b12",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "qlFile" : "local_variable.ql"
+        },
+        "primaryMetric" : {
+            "score" : 1589456.8431582449,
+            "scoreError" : 16352.770547520138,
+            "scoreConfidence" : [
+                1573104.0726107247,
+                1605809.613705765
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1583608.9886631905,
+                "50.0" : 1589200.9534956925,
+                "90.0" : 1595063.2779677093,
+                "95.0" : 1595063.2779677093,
+                "99.0" : 1595063.2779677093,
+                "99.9" : 1595063.2779677093,
+                "99.99" : 1595063.2779677093,
+                "99.999" : 1595063.2779677093,
+                "99.9999" : 1595063.2779677093,
+                "100.0" : 1595063.2779677093
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    1591483.322118826,
+                    1587927.673545807,
+                    1583608.9886631905,
+                    1589200.9534956925,
+                    1595063.2779677093
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.alibaba.qlbenchjmh.MyBenchmark.testRunner3NoCache",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/home/dqyuan/append/language/Java/jdk8/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_191",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.191-b12",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "qlFile" : "fibonacci.ql"
+        },
+        "primaryMetric" : {
+            "score" : 109.92642034750197,
+            "scoreError" : 0.5680325555171714,
+            "scoreConfidence" : [
+                109.3583877919848,
+                110.49445290301915
+            ],
+            "scorePercentiles" : {
+                "0.0" : 109.76297556532832,
+                "50.0" : 109.92457808679985,
+                "90.0" : 110.08835327972662,
+                "95.0" : 110.08835327972662,
+                "99.0" : 110.08835327972662,
+                "99.9" : 110.08835327972662,
+                "99.99" : 110.08835327972662,
+                "99.999" : 110.08835327972662,
+                "99.9999" : 110.08835327972662,
+                "100.0" : 110.08835327972662
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    109.76297556532832,
+                    109.92457808679985,
+                    109.79752426873836,
+                    110.05867053691676,
+                    110.08835327972662
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.alibaba.qlbenchjmh.MyBenchmark.testRunner3NoCache",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/home/dqyuan/append/language/Java/jdk8/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_191",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.191-b12",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "qlFile" : "integer.ql"
+        },
+        "primaryMetric" : {
+            "score" : 47.61152922272792,
+            "scoreError" : 0.38841633549807353,
+            "scoreConfidence" : [
+                47.223112887229846,
+                47.99994555822599
+            ],
+            "scorePercentiles" : {
+                "0.0" : 47.48863127865825,
+                "50.0" : 47.619259669032324,
+                "90.0" : 47.75906275103011,
+                "95.0" : 47.75906275103011,
+                "99.0" : 47.75906275103011,
+                "99.9" : 47.75906275103011,
+                "99.99" : 47.75906275103011,
+                "99.999" : 47.75906275103011,
+                "99.9999" : 47.75906275103011,
+                "100.0" : 47.75906275103011
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    47.75906275103011,
+                    47.48863127865825,
+                    47.555060752918855,
+                    47.619259669032324,
+                    47.635631662000065
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.alibaba.qlbenchjmh.MyBenchmark.testRunner3NoCache",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/home/dqyuan/append/language/Java/jdk8/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_191",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.191-b12",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "qlFile" : "local_variable.ql"
+        },
+        "primaryMetric" : {
+            "score" : 10450.01420232948,
+            "scoreError" : 71.71422027363441,
+            "scoreConfidence" : [
+                10378.299982055845,
+                10521.728422603113
+            ],
+            "scorePercentiles" : {
+                "0.0" : 10429.8158803743,
+                "50.0" : 10457.188024432995,
+                "90.0" : 10467.40690565133,
+                "95.0" : 10467.40690565133,
+                "99.0" : 10467.40690565133,
+                "99.9" : 10467.40690565133,
+                "99.99" : 10467.40690565133,
+                "99.999" : 10467.40690565133,
+                "99.9999" : 10467.40690565133,
+                "100.0" : 10467.40690565133
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    10429.8158803743,
+                    10465.378949219297,
+                    10430.28125196947,
+                    10457.188024432995,
+                    10467.40690565133
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.alibaba.qlbenchjmh.MyBenchmark.testRunner4Cache",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/home/dqyuan/append/language/Java/jdk8/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_191",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.191-b12",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "qlFile" : "fibonacci.ql"
+        },
+        "primaryMetric" : {
+            "score" : 136.7670245442509,
+            "scoreError" : 1.1663791381981705,
+            "scoreConfidence" : [
+                135.6006454060527,
+                137.93340368244907
+            ],
+            "scorePercentiles" : {
+                "0.0" : 136.4238432585076,
+                "50.0" : 136.88839145373956,
+                "90.0" : 137.08676881004345,
+                "95.0" : 137.08676881004345,
+                "99.0" : 137.08676881004345,
+                "99.9" : 137.08676881004345,
+                "99.99" : 137.08676881004345,
+                "99.999" : 137.08676881004345,
+                "99.9999" : 137.08676881004345,
+                "100.0" : 137.08676881004345
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    137.08676881004345,
+                    136.88839145373956,
+                    136.4238432585076,
+                    136.97051831497032,
+                    136.46560088399366
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.alibaba.qlbenchjmh.MyBenchmark.testRunner4Cache",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/home/dqyuan/append/language/Java/jdk8/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_191",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.191-b12",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "qlFile" : "integer.ql"
+        },
+        "primaryMetric" : {
+            "score" : 9996.154775078145,
+            "scoreError" : 22.194812986490135,
+            "scoreConfidence" : [
+                9973.959962091654,
+                10018.349588064635
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9990.216626576754,
+                "50.0" : 9995.191306292621,
+                "90.0" : 10005.225582904504,
+                "95.0" : 10005.225582904504,
+                "99.0" : 10005.225582904504,
+                "99.9" : 10005.225582904504,
+                "99.99" : 10005.225582904504,
+                "99.999" : 10005.225582904504,
+                "99.9999" : 10005.225582904504,
+                "100.0" : 10005.225582904504
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    9995.191306292621,
+                    9992.613649746569,
+                    9990.216626576754,
+                    10005.225582904504,
+                    9997.52670987028
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.alibaba.qlbenchjmh.MyBenchmark.testRunner4Cache",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/home/dqyuan/append/language/Java/jdk8/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_191",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.191-b12",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "qlFile" : "local_variable.ql"
+        },
+        "primaryMetric" : {
+            "score" : 2528574.47494788,
+            "scoreError" : 9661.4869445591,
+            "scoreConfidence" : [
+                2518912.988003321,
+                2538235.961892439
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2525944.473878133,
+                "50.0" : 2528958.4881510865,
+                "90.0" : 2532303.3773159245,
+                "95.0" : 2532303.3773159245,
+                "99.0" : 2532303.3773159245,
+                "99.9" : 2532303.3773159245,
+                "99.99" : 2532303.3773159245,
+                "99.999" : 2532303.3773159245,
+                "99.9999" : 2532303.3773159245,
+                "100.0" : 2532303.3773159245
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2525944.473878133,
+                    2529080.5904139373,
+                    2526585.44498032,
+                    2528958.4881510865,
+                    2532303.3773159245
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.alibaba.qlbenchjmh.MyBenchmark.testRunner4NoCache",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/home/dqyuan/append/language/Java/jdk8/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_191",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.191-b12",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "qlFile" : "fibonacci.ql"
+        },
+        "primaryMetric" : {
+            "score" : 136.0750324426856,
+            "scoreError" : 0.6133886865277692,
+            "scoreConfidence" : [
+                135.46164375615783,
+                136.68842112921337
+            ],
+            "scorePercentiles" : {
+                "0.0" : 135.92334418149136,
+                "50.0" : 135.9933813109263,
+                "90.0" : 136.25712615022832,
+                "95.0" : 136.25712615022832,
+                "99.0" : 136.25712615022832,
+                "99.9" : 136.25712615022832,
+                "99.99" : 136.25712615022832,
+                "99.999" : 136.25712615022832,
+                "99.9999" : 136.25712615022832,
+                "100.0" : 136.25712615022832
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    136.23731598477957,
+                    135.9933813109263,
+                    135.9639945860025,
+                    135.92334418149136,
+                    136.25712615022832
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.alibaba.qlbenchjmh.MyBenchmark.testRunner4NoCache",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/home/dqyuan/append/language/Java/jdk8/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_191",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.191-b12",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "qlFile" : "integer.ql"
+        },
+        "primaryMetric" : {
+            "score" : 263.62442051788304,
+            "scoreError" : 2.242815683262428,
+            "scoreConfidence" : [
+                261.3816048346206,
+                265.8672362011455
+            ],
+            "scorePercentiles" : {
+                "0.0" : 262.9735755736109,
+                "50.0" : 263.3669395744119,
+                "90.0" : 264.2945079072668,
+                "95.0" : 264.2945079072668,
+                "99.0" : 264.2945079072668,
+                "99.9" : 264.2945079072668,
+                "99.99" : 264.2945079072668,
+                "99.999" : 264.2945079072668,
+                "99.9999" : 264.2945079072668,
+                "100.0" : 264.2945079072668
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    263.3021157270147,
+                    263.3669395744119,
+                    262.9735755736109,
+                    264.18496380711093,
+                    264.2945079072668
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.alibaba.qlbenchjmh.MyBenchmark.testRunner4NoCache",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/home/dqyuan/append/language/Java/jdk8/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_191",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.191-b12",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "qlFile" : "local_variable.ql"
+        },
+        "primaryMetric" : {
+            "score" : 73060.60724093884,
+            "scoreError" : 587.5105452188644,
+            "scoreConfidence" : [
+                72473.09669571999,
+                73648.1177861577
+            ],
+            "scorePercentiles" : {
+                "0.0" : 72814.69475673154,
+                "50.0" : 73114.88148123161,
+                "90.0" : 73216.89579366574,
+                "95.0" : 73216.89579366574,
+                "99.0" : 73216.89579366574,
+                "99.9" : 73216.89579366574,
+                "99.99" : 73216.89579366574,
+                "99.999" : 73216.89579366574,
+                "99.9999" : 73216.89579366574,
+                "100.0" : 73216.89579366574
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    73114.88148123161,
+                    73216.89579366574,
+                    72814.69475673154,
+                    73126.4822270137,
+                    73030.08194605165
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

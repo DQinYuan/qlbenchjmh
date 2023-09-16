@@ -1,0 +1,383 @@
+# JMH version: 1.37
+# VM version: JDK 1.8.0_191, Java HotSpot(TM) 64-Bit Server VM, 25.191-b12
+# VM invoker: /home/dqyuan/append/language/Java/jdk8/jre/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.alibaba.qlbenchjmh.MyBenchmark.testRunner3Cache
+# Parameters: (qlFile = fibonacci.ql)
+
+# Run progress: 0.00% complete, ETA 00:14:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 107.114 ops/s
+# Warmup Iteration   2: 111.203 ops/s
+Iteration   1: 111.482 ops/s
+Iteration   2: 111.990 ops/s
+Iteration   3: 108.331 ops/s
+Iteration   4: 111.989 ops/s
+Iteration   5: 111.660 ops/s
+
+
+Result "com.alibaba.qlbenchjmh.MyBenchmark.testRunner3Cache":
+  111.090 ±(99.9%) 6.000 ops/s [Average]
+  (min, avg, max) = (108.331, 111.090, 111.990), stdev = 1.558
+  CI (99.9%): [105.091, 117.090] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_191, Java HotSpot(TM) 64-Bit Server VM, 25.191-b12
+# VM invoker: /home/dqyuan/append/language/Java/jdk8/jre/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.alibaba.qlbenchjmh.MyBenchmark.testRunner3Cache
+# Parameters: (qlFile = integer.ql)
+
+# Run progress: 8.33% complete, ETA 00:12:54
+# Fork: 1 of 1
+# Warmup Iteration   1: 8692.290 ops/s
+# Warmup Iteration   2: 9124.478 ops/s
+Iteration   1: 9088.772 ops/s
+Iteration   2: 9068.384 ops/s
+Iteration   3: 9112.646 ops/s
+Iteration   4: 9062.338 ops/s
+Iteration   5: 8866.931 ops/s
+
+
+Result "com.alibaba.qlbenchjmh.MyBenchmark.testRunner3Cache":
+  9039.814 ±(99.9%) 379.798 ops/s [Average]
+  (min, avg, max) = (8866.931, 9039.814, 9112.646), stdev = 98.632
+  CI (99.9%): [8660.016, 9419.612] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_191, Java HotSpot(TM) 64-Bit Server VM, 25.191-b12
+# VM invoker: /home/dqyuan/append/language/Java/jdk8/jre/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.alibaba.qlbenchjmh.MyBenchmark.testRunner3Cache
+# Parameters: (qlFile = local_variable.ql)
+
+# Run progress: 16.67% complete, ETA 00:11:43
+# Fork: 1 of 1
+# Warmup Iteration   1: 1549649.562 ops/s
+# Warmup Iteration   2: 1596019.019 ops/s
+Iteration   1: 1591483.322 ops/s
+Iteration   2: 1587927.674 ops/s
+Iteration   3: 1583608.989 ops/s
+Iteration   4: 1589200.953 ops/s
+Iteration   5: 1595063.278 ops/s
+
+
+Result "com.alibaba.qlbenchjmh.MyBenchmark.testRunner3Cache":
+  1589456.843 ±(99.9%) 16352.771 ops/s [Average]
+  (min, avg, max) = (1583608.989, 1589456.843, 1595063.278), stdev = 4246.763
+  CI (99.9%): [1573104.073, 1605809.614] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_191, Java HotSpot(TM) 64-Bit Server VM, 25.191-b12
+# VM invoker: /home/dqyuan/append/language/Java/jdk8/jre/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.alibaba.qlbenchjmh.MyBenchmark.testRunner3NoCache
+# Parameters: (qlFile = fibonacci.ql)
+
+# Run progress: 25.00% complete, ETA 00:10:33
+# Fork: 1 of 1
+# Warmup Iteration   1: 105.942 ops/s
+# Warmup Iteration   2: 110.142 ops/s
+Iteration   1: 109.763 ops/s
+Iteration   2: 109.925 ops/s
+Iteration   3: 109.798 ops/s
+Iteration   4: 110.059 ops/s
+Iteration   5: 110.088 ops/s
+
+
+Result "com.alibaba.qlbenchjmh.MyBenchmark.testRunner3NoCache":
+  109.926 ±(99.9%) 0.568 ops/s [Average]
+  (min, avg, max) = (109.763, 109.926, 110.088), stdev = 0.148
+  CI (99.9%): [109.358, 110.494] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_191, Java HotSpot(TM) 64-Bit Server VM, 25.191-b12
+# VM invoker: /home/dqyuan/append/language/Java/jdk8/jre/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.alibaba.qlbenchjmh.MyBenchmark.testRunner3NoCache
+# Parameters: (qlFile = integer.ql)
+
+# Run progress: 33.33% complete, ETA 00:09:22
+# Fork: 1 of 1
+# Warmup Iteration   1: 44.609 ops/s
+# Warmup Iteration   2: 47.494 ops/s
+Iteration   1: 47.759 ops/s
+Iteration   2: 47.489 ops/s
+Iteration   3: 47.555 ops/s
+Iteration   4: 47.619 ops/s
+Iteration   5: 47.636 ops/s
+
+
+Result "com.alibaba.qlbenchjmh.MyBenchmark.testRunner3NoCache":
+  47.612 ±(99.9%) 0.388 ops/s [Average]
+  (min, avg, max) = (47.489, 47.612, 47.759), stdev = 0.101
+  CI (99.9%): [47.223, 48.000] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_191, Java HotSpot(TM) 64-Bit Server VM, 25.191-b12
+# VM invoker: /home/dqyuan/append/language/Java/jdk8/jre/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.alibaba.qlbenchjmh.MyBenchmark.testRunner3NoCache
+# Parameters: (qlFile = local_variable.ql)
+
+# Run progress: 41.67% complete, ETA 00:08:12
+# Fork: 1 of 1
+# Warmup Iteration   1: 10033.362 ops/s
+# Warmup Iteration   2: 10403.526 ops/s
+Iteration   1: 10429.816 ops/s
+Iteration   2: 10465.379 ops/s
+Iteration   3: 10430.281 ops/s
+Iteration   4: 10457.188 ops/s
+Iteration   5: 10467.407 ops/s
+
+
+Result "com.alibaba.qlbenchjmh.MyBenchmark.testRunner3NoCache":
+  10450.014 ±(99.9%) 71.714 ops/s [Average]
+  (min, avg, max) = (10429.816, 10450.014, 10467.407), stdev = 18.624
+  CI (99.9%): [10378.300, 10521.728] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_191, Java HotSpot(TM) 64-Bit Server VM, 25.191-b12
+# VM invoker: /home/dqyuan/append/language/Java/jdk8/jre/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.alibaba.qlbenchjmh.MyBenchmark.testRunner4Cache
+# Parameters: (qlFile = fibonacci.ql)
+
+# Run progress: 50.00% complete, ETA 00:07:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 132.301 ops/s
+# Warmup Iteration   2: 137.137 ops/s
+Iteration   1: 137.087 ops/s
+Iteration   2: 136.888 ops/s
+Iteration   3: 136.424 ops/s
+Iteration   4: 136.971 ops/s
+Iteration   5: 136.466 ops/s
+
+
+Result "com.alibaba.qlbenchjmh.MyBenchmark.testRunner4Cache":
+  136.767 ±(99.9%) 1.166 ops/s [Average]
+  (min, avg, max) = (136.424, 136.767, 137.087), stdev = 0.303
+  CI (99.9%): [135.601, 137.933] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_191, Java HotSpot(TM) 64-Bit Server VM, 25.191-b12
+# VM invoker: /home/dqyuan/append/language/Java/jdk8/jre/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.alibaba.qlbenchjmh.MyBenchmark.testRunner4Cache
+# Parameters: (qlFile = integer.ql)
+
+# Run progress: 58.33% complete, ETA 00:05:51
+# Fork: 1 of 1
+# Warmup Iteration   1: 9552.278 ops/s
+# Warmup Iteration   2: 9896.564 ops/s
+Iteration   1: 9995.191 ops/s
+Iteration   2: 9992.614 ops/s
+Iteration   3: 9990.217 ops/s
+Iteration   4: 10005.226 ops/s
+Iteration   5: 9997.527 ops/s
+
+
+Result "com.alibaba.qlbenchjmh.MyBenchmark.testRunner4Cache":
+  9996.155 ±(99.9%) 22.195 ops/s [Average]
+  (min, avg, max) = (9990.217, 9996.155, 10005.226), stdev = 5.764
+  CI (99.9%): [9973.960, 10018.350] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_191, Java HotSpot(TM) 64-Bit Server VM, 25.191-b12
+# VM invoker: /home/dqyuan/append/language/Java/jdk8/jre/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.alibaba.qlbenchjmh.MyBenchmark.testRunner4Cache
+# Parameters: (qlFile = local_variable.ql)
+
+# Run progress: 66.67% complete, ETA 00:04:41
+# Fork: 1 of 1
+# Warmup Iteration   1: 2428990.320 ops/s
+# Warmup Iteration   2: 2531460.163 ops/s
+Iteration   1: 2525944.474 ops/s
+Iteration   2: 2529080.590 ops/s
+Iteration   3: 2526585.445 ops/s
+Iteration   4: 2528958.488 ops/s
+Iteration   5: 2532303.377 ops/s
+
+
+Result "com.alibaba.qlbenchjmh.MyBenchmark.testRunner4Cache":
+  2528574.475 ±(99.9%) 9661.487 ops/s [Average]
+  (min, avg, max) = (2525944.474, 2528574.475, 2532303.377), stdev = 2509.057
+  CI (99.9%): [2518912.988, 2538235.962] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_191, Java HotSpot(TM) 64-Bit Server VM, 25.191-b12
+# VM invoker: /home/dqyuan/append/language/Java/jdk8/jre/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.alibaba.qlbenchjmh.MyBenchmark.testRunner4NoCache
+# Parameters: (qlFile = fibonacci.ql)
+
+# Run progress: 75.00% complete, ETA 00:03:31
+# Fork: 1 of 1
+# Warmup Iteration   1: 129.714 ops/s
+# Warmup Iteration   2: 135.265 ops/s
+Iteration   1: 136.237 ops/s
+Iteration   2: 135.993 ops/s
+Iteration   3: 135.964 ops/s
+Iteration   4: 135.923 ops/s
+Iteration   5: 136.257 ops/s
+
+
+Result "com.alibaba.qlbenchjmh.MyBenchmark.testRunner4NoCache":
+  136.075 ±(99.9%) 0.613 ops/s [Average]
+  (min, avg, max) = (135.923, 136.075, 136.257), stdev = 0.159
+  CI (99.9%): [135.462, 136.688] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_191, Java HotSpot(TM) 64-Bit Server VM, 25.191-b12
+# VM invoker: /home/dqyuan/append/language/Java/jdk8/jre/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.alibaba.qlbenchjmh.MyBenchmark.testRunner4NoCache
+# Parameters: (qlFile = integer.ql)
+
+# Run progress: 83.33% complete, ETA 00:02:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 247.291 ops/s
+# Warmup Iteration   2: 264.229 ops/s
+Iteration   1: 263.302 ops/s
+Iteration   2: 263.367 ops/s
+Iteration   3: 262.974 ops/s
+Iteration   4: 264.185 ops/s
+Iteration   5: 264.295 ops/s
+
+
+Result "com.alibaba.qlbenchjmh.MyBenchmark.testRunner4NoCache":
+  263.624 ±(99.9%) 2.243 ops/s [Average]
+  (min, avg, max) = (262.974, 263.624, 264.295), stdev = 0.582
+  CI (99.9%): [261.382, 265.867] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_191, Java HotSpot(TM) 64-Bit Server VM, 25.191-b12
+# VM invoker: /home/dqyuan/append/language/Java/jdk8/jre/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.alibaba.qlbenchjmh.MyBenchmark.testRunner4NoCache
+# Parameters: (qlFile = local_variable.ql)
+
+# Run progress: 91.67% complete, ETA 00:01:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 67310.255 ops/s
+# Warmup Iteration   2: 73116.672 ops/s
+Iteration   1: 73114.881 ops/s
+Iteration   2: 73216.896 ops/s
+Iteration   3: 72814.695 ops/s
+Iteration   4: 73126.482 ops/s
+Iteration   5: 73030.082 ops/s
+
+
+Result "com.alibaba.qlbenchjmh.MyBenchmark.testRunner4NoCache":
+  73060.607 ±(99.9%) 587.511 ops/s [Average]
+  (min, avg, max) = (72814.695, 73060.607, 73216.896), stdev = 152.575
+  CI (99.9%): [72473.097, 73648.118] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:14:04
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                (qlFile)   Mode  Cnt        Score       Error  Units
+MyBenchmark.testRunner3Cache         fibonacci.ql  thrpt    5      111.090 ±     6.000  ops/s
+MyBenchmark.testRunner3Cache           integer.ql  thrpt    5     9039.814 ±   379.798  ops/s
+MyBenchmark.testRunner3Cache    local_variable.ql  thrpt    5  1589456.843 ± 16352.771  ops/s
+MyBenchmark.testRunner3NoCache       fibonacci.ql  thrpt    5      109.926 ±     0.568  ops/s
+MyBenchmark.testRunner3NoCache         integer.ql  thrpt    5       47.612 ±     0.388  ops/s
+MyBenchmark.testRunner3NoCache  local_variable.ql  thrpt    5    10450.014 ±    71.714  ops/s
+MyBenchmark.testRunner4Cache         fibonacci.ql  thrpt    5      136.767 ±     1.166  ops/s
+MyBenchmark.testRunner4Cache           integer.ql  thrpt    5     9996.155 ±    22.195  ops/s
+MyBenchmark.testRunner4Cache    local_variable.ql  thrpt    5  2528574.475 ±  9661.487  ops/s
+MyBenchmark.testRunner4NoCache       fibonacci.ql  thrpt    5      136.075 ±     0.613  ops/s
+MyBenchmark.testRunner4NoCache         integer.ql  thrpt    5      263.624 ±     2.243  ops/s
+MyBenchmark.testRunner4NoCache  local_variable.ql  thrpt    5    73060.607 ±   587.511  ops/s
+
+Benchmark result is saved to jmh-result.json
