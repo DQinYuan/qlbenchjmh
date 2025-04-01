@@ -56,6 +56,8 @@ public class MyBenchmark {
     public static ExpressRunner RUNNER_3 = new ExpressRunner();
     public static Express4Runner RUNNER_4 = new Express4Runner(InitOptions.builder()
             .securityStrategy(QLSecurityStrategy.open()).build());
+    public static Express4Runner RUNNER_4_TRACE_EXPRESSION = new Express4Runner(InitOptions.builder()
+            .securityStrategy(QLSecurityStrategy.open()).traceExpression(true).build());
 
     static {
         RUNNER_3.addFunction("assert", new Operator() {
@@ -65,6 +67,7 @@ public class MyBenchmark {
             }
         });
         RUNNER_4.addFunction("assert", (qRuntime, parameters) -> null);
+        RUNNER_4_TRACE_EXPRESSION.addFunction("assert", (qRuntime, parameters) -> null);
     }
 
     @Param({"fibonacci.ql", "integer.ql", "local_variable.ql"})
@@ -109,5 +112,17 @@ public class MyBenchmark {
     public void testRunner4Cache() {
         RUNNER_4.execute(script, new HashMap<>(), QLOptions.builder()
                 .cache(true).build());
+    }
+
+    @Benchmark
+    public void testRunner4TraceNoCache() {
+        RUNNER_4_TRACE_EXPRESSION.execute(script, new HashMap<>(), QLOptions.builder()
+                .cache(false).traceExpression(true).build());
+    }
+
+    @Benchmark
+    public void testRunner4TraceCache() {
+        RUNNER_4_TRACE_EXPRESSION.execute(script, new HashMap<>(), QLOptions.builder()
+                .cache(true).traceExpression(true).build());
     }
 }
